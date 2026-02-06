@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sidebar-bg: #1e2a3b;
+  --sidebar-width: 160px;
+  --sidebar-collapsed-width: 60px;
+  --primary-red: #e63946;
+  --primary-green: #2d9a59;
+  --primary-yellow: #f9a825;
+  --primary-blue: #3b82f6;
+  --primary-teal: #0d9488;
+  --primary-cyan: #06b6d4;
+  --text-dark: #1e293b;
+  --text-gray: #64748b;
+  --text-light: #94a3b8;
+  --bg-light: #f1f5f9;
+  --white: #ffffff;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Card Style */
+.card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Common Status Dots */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.gray { background: #9ca3af; }
+.dot.yellow { background: #f9a825; }
+.dot.green { background: #2d9a59; }
+.dot.orange { background: #f97316; }
+.dot.blue { background: #3b82f6; }
+.dot.red { background: #ef4444; }
+
+/* Number Dots */
+.num-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.num-dot.green { background: #22c55e; }
+.num-dot.yellow { background: #eab308; }
+.num-dot.red { background: #ef4444; }
+.num-dot.blue { background: #3b82f6; }
+.num-dot.gray { background: #9ca3af; }
+.num-dot.orange { background: #f97316; }
+
+/* Status Badge */
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.status-badge.approved {
+  background: #f0fdf4;
+  color: #22c55e;
+}
+
+.status-badge.pending {
+  background: #fef2f2;
+  color: #ef4444;
+}
+
+.status-badge.in-progress {
+  background: #fefce8;
+  color: #eab308;
+}

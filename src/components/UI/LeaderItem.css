@@ -1,0 +1,33 @@
+.leader-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.leader-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.leader-info {
+  flex: 1;
+}
+
+.leader-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.leader-role {
+  font-size: 11px;
+  color: var(--text-gray);
+}
+
+.leader-score {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
