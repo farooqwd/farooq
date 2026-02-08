@@ -16,7 +16,7 @@ function ComingSoon({ pageName }) {
           For testing purposes, only <strong>Dashboard</strong> and <strong>Perspectives</strong> screens are available.
         </p>
         <div className="coming-soon-actions">
-          <Link to="/" className="btn btn-primary">
+          <Link to="/dashboard" className="btn btn-primary">
             <i className="fas fa-home"></i>
             Go to Dashboard
           </Link>

@@ -61,7 +61,7 @@ function Perspectives() {
     <div className="perspectives">
       {/* Page Header */}
       <div className="page-header">
-        <Link to="/" className="back-link">
+        <Link to="/dashboard" className="back-link">
           <i className="fas fa-arrow-left"></i>
           <span>Digital Transformation Strategic Planning</span>
         </Link>

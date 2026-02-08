@@ -25,7 +25,7 @@ function App() {
       toggleMobileMenu={toggleMobileMenu}
     >
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/perspectives" element={<Perspectives />} />
         <Route path="/tasks" element={<ComingSoon pageName="Tasks" />} />
         <Route path="/documents" element={<ComingSoon pageName="Documents" />} />

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import './Sidebar.css'
 
 const navItems = [
-  { path: '/', icon: 'fa-th-large', label: 'Dashboard' },
+  { path: '/dashboard', icon: 'fa-th-large', label: 'Dashboard' },
   { path: '/perspectives', icon: 'fa-eye', label: 'Perspectives' },
   { path: '/tasks', icon: 'fa-tasks', label: 'Tasks' },
   { path: '/documents', icon: 'fa-file-alt', label: 'Documents' },
