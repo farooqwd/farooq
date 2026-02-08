@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import './ComingSoon.css'
+import { Link } from "react-router-dom";
+import "./ComingSoon.css";
 
 function ComingSoon({ pageName }) {
   return (
@@ -13,7 +13,8 @@ function ComingSoon({ pageName }) {
           The <strong>{pageName}</strong> page is currently under development.
         </p>
         <p className="coming-soon-note">
-          For testing purposes, only <strong>Dashboard</strong> and <strong>Perspectives</strong> screens are available.
+          For testing purposes, only <strong>Dashboard</strong> and{" "}
+          <strong>Perspectives</strong> screens are available.
         </p>
         <div className="coming-soon-actions">
           <Link to="/dashboard" className="btn btn-primary">
@@ -27,7 +28,7 @@ function ComingSoon({ pageName }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ComingSoon
+export default ComingSoon;
